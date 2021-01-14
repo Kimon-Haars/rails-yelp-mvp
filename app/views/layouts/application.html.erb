@@ -12,6 +12,14 @@
   </head>
 
   <body>
+    <div style="padding: 20px; background-color: lightgrey;">
+      <h3>Navigation</h3>
+      <ul>
+        <li><%= link_to 'All Restaurants', restaurants_path %></li>
+        <li><%= link_to 'New Restaurant', new_restaurant_path %></li>
+      </ul>
+    </div>
+
     <%= yield %>
   </body>
 </html>
